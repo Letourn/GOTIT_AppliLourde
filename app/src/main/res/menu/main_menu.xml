@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="@string/accueil"
+            />
+        <item android:id="@+id/map"
+            android:icon="@drawable/baseline_map_24"
+            android:title="@string/carte"
+            />
+        <item android:id="@+id/gallery"
+            android:icon="@drawable/outline_broken_image_24"
+            android:title="@string/poissons"
+            />
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="@string/profil">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item android:id="@+id/account"
+                        android:icon="@drawable/baseline_account_circle_24"
+                        android:title="@string/mon_compte"
+                        />
+                    <item android:id="@+id/log"
+                        android:icon="@drawable/baseline_login_24"
+                        android:title="@string/se_connecter"
+                        />
+                </group>
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/about"
+            android:icon="@drawable/baseline_question_mark_24"
+            android:title="@string/propos_de_nous"
+            />
+    </group>
+</menu>
